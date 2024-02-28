@@ -19,7 +19,7 @@ Pour l'utiliser c'est assez facile, si vous avez installé Sage en natif sur vot
 sage -n jupyter
 ```
 
-Si comme moi vous préférez passer des containers Docker pour ne pas polluer votre machine :
+Si comme moi vous préférez passer par des containers Docker pour ne pas polluer votre machine :
 
 ```
 docker run -p 8888:8888 sagemath/sagemath-jupyter
